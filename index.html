@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKF Imprints - Vibrant Printing Services</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Poppins for cheerful look (body font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts - Open Sans for bolder logo font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        /* Custom color palette using Tailwind's arbitrary values */
+        .bg-pkf-pink { background-color: #FF69B4; } /* Deep Pink */
+        .text-pkf-pink { color: #FF69B4; }
+        .bg-pkf-green { background-color: #32CD32; } /* Lime Green */
+        .text-pkf-green { color: #32CD32; }
+        .bg-pkf-purple { background-color: #8A2BE2; } /* Blue Violet */
+        .text-pkf-purple { color: #8A2BE2; }
+        .bg-pkf-orange { background-color: #FFA500; } /* Orange */
+        .text-pkf-orange { color: #FFA500; }
+
+        .font-open-sans {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Added text-shadow for better visibility of header text */
+        .header-text-shadow {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="leading-normal tracking-normal text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-pkf-green to-pkf-orange py-4 shadow-xl border-b-4 border-pkf-pink">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+            <!-- Logo and Business Name -->
+            <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                <!-- PKF Imprints Logo -->
+                <img src="https://i.imgur.com/7oaNocB_d.jpeg?maxwidth=520&shape=thumb&fidelity=high" alt="PKF Imprints Logo" class="rounded-full shadow-lg">
+                <!-- Business Name with orange font color and new stylish font, with shadow -->
+                <h1 class="text-4xl font-extrabold text-pkf-orange font-open-sans header-text-shadow">PKF Imprints</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6 text-lg font-semibold">
+                    <li><a href="#home" class="text-pkf-orange hover:text-pkf-pink transition duration-300 ease-in-out header-text-shadow">Home</a></li>
+                    <li><a href="#services" class="text-pkf-orange hover:text-pkf-pink transition duration-300 ease-in-out header-text-shadow">Services</a></li>
+                    <li><a href="#products" class="text-pkf-orange hover:text-pkf-pink transition duration-300 ease-in-out header-text-shadow">Products</a></li>
+                    <li><a href="#about" class="text-pkf-orange hover:text-pkf-pink transition duration-300 ease-in-out header-text-shadow">About Us</a></li>
+                    <li><a href="#quote-contact" class="text-pkf-orange hover:text-pkf-pink transition duration-300 ease-in-out header-text-shadow">Get a Quote</a></li>
+                    <li><a href="#contact" class="text-pkf-orange hover:text-pkf-pink transition duration-300 ease-in-out header-text-shadow">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-br from-pkf-purple to-pkf-green text-center py-20 rounded-b-3xl shadow-xl">
+        <div class="container mx-auto px-4">
+            <!-- Hero text with pink font color -->
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-6 animate-pulse text-pkf-pink">Where Quality Meets Expectations!</h2>
+            <p class="text-xl md:text-2xl mb-8 text-pkf-pink">Bringing your ideas to life with vibrant colors and exceptional quality.</p>
+            <a href="#services" class="inline-block bg-white text-pkf-purple font-bold py-3 px-8 rounded-full shadow-lg hover:bg-pkf-green hover:text-white transition duration-300 ease-in-out transform hover-lift">
+                Explore Our Services
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white rounded-t-3xl shadow-lg mt-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-center text-pkf-purple mb-12">What We Offer</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1: Custom Apparel Printing -->
+                <div class="bg-pkf-green text-white p-8 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift text-center">
+                    <i class="fas fa-tshirt text-4xl mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Custom Apparel Printing</h3>
+                    <p class="text-lg">T-shirts, hoodies, caps, and more! Express yourself with personalized clothing.</p>
+                </div>
+                <!-- Service Card 2: Promotional Items (Cups, Key Rings) -->
+                <div class="bg-pkf-pink text-white p-8 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift text-center">
+                    <i class="fas fa-mug-hot text-4xl mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Promotional Items</h3>
+                    <p class="text-lg">Cups, mugs, key rings – brand your giveaways for maximum impact.</p>
+                </div>
+                <!-- Service Card 3: Graphic Design -->
+                <div class="bg-pkf-purple text-white p-8 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift text-center">
+                    <i class="fas fa-palette text-4xl mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Graphic Design</h3>
+                    <p class="text-lg">From logos to full branding, our designers bring your concepts to life.</p>
+                </div>
+                <!-- Service Card 4: Event Programs & Invitations -->
+                <div class="bg-pkf-orange text-white p-8 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift text-center">
+                    <i class="fas fa-clipboard-list text-4xl mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Event Programs & Invitations</h3>
+                    <p class="text-lg">Beautifully designed programs, invitations, and flyers for any occasion.</p>
+                </div>
+                <!-- Service Card 5: Brochures & Flyers -->
+                <div class="bg-pkf-pink text-white p-8 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift text-center">
+                    <i class="fas fa-file-alt text-4xl mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Brochures & Flyers</h3>
+                    <p class="text-lg">Professional and eye-catching print materials for your business.</p>
+                </div>
+                <!-- Service Card 6: And Much More! -->
+                <div class="bg-pkf-green text-white p-8 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift text-center">
+                    <i class="fas fa-ellipsis-h text-4xl mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">And Much More!</h3>
+                    <p class="text-lg">Don't see what you need? Contact us to discuss your custom printing projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery Section -->
+    <section id="products" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold text-pkf-orange mb-12">Our Latest Prints</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Image 1 -->
+                <div class="bg-white p-4 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift">
+                    <img src="https://i.imgur.com/7HA7r7O.jpeg" alt="Custom T-Shirt Print" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-lg font-semibold text-gray-700">Custom T-Shirts</p>
+                </div>
+                <!-- Product Image 2 -->
+                <div class="bg-white p-4 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift">
+                    <img src="https://i.imgur.com/6Ke40xX.jpeg" alt="Branded Mug Print" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-lg font-semibold text-gray-700">Branded Mugs</p>
+                </div>
+                <!-- Product Image 3 -->
+                <div class="bg-white p-4 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift">
+                    <img src="https://i.imgur.com/LT2xFPf.jpeg" alt="Event Program Print" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-lg font-semibold text-gray-700">Event Programs</p>
+                </div>
+                <!-- Product Image 4 -->
+                <div class="bg-white p-4 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift">
+                    <img src="https://i.imgur.com/Z3SQ115.jpeg" alt="Custom Key Ring Print" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-lg font-semibold text-gray-700">Personalized Key Rings</p>
+                </div>
+                <!-- Product Image 5 -->
+                <div class="bg-white p-4 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift">
+                    <img src="https://i.imgur.com/x8ngoaK.jpeg" alt="Business Card Design" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-lg font-semibold text-gray-700">Business Cards</p>
+                </div>
+                <!-- Product Image 6 -->
+                <div class="bg-white p-4 rounded-xl shadow-md transition duration-300 ease-in-out hover-lift">
+                    <img src="https://i.imgur.com/iaEHdnQ.jpeg" alt="Custom Tote Bag" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-lg font-semibold text-gray-700">Custom Tote Bags</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold text-pkf-orange mb-8">About PKF Imprints</h2>
+            <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-8">
+                At PKF Imprints, located in the heart of Kingston, Jamaica, we are passionate about bringing your creative ideas to vibrant life.
+                With a commitment to quality and customer satisfaction, we offer a wide range of printing services, from personalized apparel
+                and promotional items to stunning graphic design and event materials. Our team is dedicated to providing
+                top-notch service and products that make a lasting impression. Let us help you leave your mark!
+            </p>
+        </div>
+    </section>
+
+    <!-- New Quote/Contact Form Section -->
+    <section id="quote-contact" class="py-16 bg-pkf-green text-white rounded-t-3xl shadow-xl">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold mb-8">Get a Quote or Leave a Message!</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">Tell us about your project or general inquiry, and we'll get back to you promptly.</p>
+
+            <form action="https://formspree.io/f/mjkolqpb" method="POST" class="bg-white p-8 rounded-xl shadow-lg max-w-lg mx-auto text-gray-800">
+                <div class="mb-6 text-left">
+                    <label for="name" class="block text-lg font-semibold mb-2 text-pkf-purple">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe"
+                           class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-pkf-orange" required>
+                </div>
+                <div class="mb-6 text-left">
+                    <label for="email" class="block text-lg font-semibold mb-2 text-pkf-purple">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="john.doe@example.com"
+                           class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-pkf-orange" required>
+                </div>
+                <div class="mb-6 text-left">
+                    <label for="phone" class="block text-lg font-semibold mb-2 text-pkf-purple">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(876) 123-4567"
+                           class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-pkf-orange">
+                </div>
+                <div class="mb-6 text-left">
+                    <label for="message" class="block text-lg font-semibold mb-2 text-pkf-purple">Your Message / Project Details</label>
+                    <textarea id="message" name="message" rows="5" placeholder="I need 100 custom t-shirts with my company logo..."
+                              class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-pkf-orange" required></textarea>
+                </div>
+                <div class="mb-6 text-left flex items-center">
+                    <input type="checkbox" id="request_quote" name="request_quote" class="h-5 w-5 text-pkf-orange rounded-md focus:ring-pkf-orange border-gray-300">
+                    <label for="request_quote" class="ml-2 text-lg font-semibold text-pkf-purple">I would like a quote for this project.</label>
+                </div>
+                <button type="submit" class="bg-pkf-orange text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-pkf-purple transition duration-300 ease-in-out transform hover-lift">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Existing Contact Section (now for direct contact info) -->
+    <section id="contact" class="py-16 bg-pkf-purple text-white rounded-t-3xl shadow-xl">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold mb-8">Or Reach Us Directly!</h2>
+            <p class="text-lg mb-4">You can always connect with us through the details below:</p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-xl font-semibold">
+                <p>📧 <a href="mailto:pkfimprints2025@gmail.com" class="hover:text-pkf-orange transition duration-300 ease-in-out">pkfimprints2025@gmail.com</a></p>
+                <p>📞 <a href="tel:+18765653857" class="hover:text-pkf-orange transition duration-300 ease-in-out">(876) 565-3857</a></p>
+                <p>📍 Kingston, Jamaica</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 PKF Imprints. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
